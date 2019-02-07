@@ -1,10 +1,10 @@
 year = int(input(" "))
 
 if (year%400 == 0):
-          print("%d is a Leap Year" %year)
+          print("yes")
 elif (year%100 == 0):
-          print("%d is Not the Leap Year" %year)
+          print("no")
 elif (year%4 == 0):
-          print("%d is a Leap Year" %year)
+          print("yes")
 else:
-          print("%d is Not the Leap Year" %year)
+          print("no")
